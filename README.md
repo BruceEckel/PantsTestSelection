@@ -1,2 +1,3 @@
-# PantsTestSelection
-Demonstrates selecting alternate file and function names for Pytest within Pants
+# Selecting Alternate File and Function Names for Pytest Using Pants
+
+Demonstration and experimentation.
