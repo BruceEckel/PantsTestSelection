@@ -2,6 +2,10 @@ import io
 import os
 import sys
 
+def a():
+  print("SHOULDN'T SEE THIS")
+  assert False
+
 def app():
   print("Hello World!")
 

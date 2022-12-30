@@ -10,3 +10,5 @@ backend_packages = [
   root_patterns = ["/"]
 [anonymous-telemetry]
   enabled = false
+[test]
+output = "all"

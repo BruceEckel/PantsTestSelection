@@ -1,3 +1,7 @@
+def e():
+  print("SHOULDN'T SEE THIS")
+  assert False
+
 def e1_main():
   print("running e1_main")
   assert True
