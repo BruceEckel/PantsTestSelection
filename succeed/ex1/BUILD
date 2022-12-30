@@ -12,5 +12,5 @@ pex_binary(
 
 python_tests(
     name="tests",
-    sources=["*.py", "!__init__.py", "!non_test.py"],
+    sources=["*.py", "!__init__.py", "!not_test.py", "!test_not.py"],
 )

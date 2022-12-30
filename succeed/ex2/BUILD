@@ -2,5 +2,5 @@ python_sources()
 
 python_tests(
     name="tests",
-    sources=["*.py"],
+    sources=["*.py", "!__init__.py"],
 )
