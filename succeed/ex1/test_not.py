@@ -1,4 +1,4 @@
-def test_not2():
+def test_2_not():
   print("THIS IS NOT A TEST")
   assert False
 
