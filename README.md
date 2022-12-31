@@ -5,8 +5,8 @@ for tests and the function names that are considered tests. The Pytest default
 is to only look for tests inside `test_*.py` or `*_test.py` files, and to look for function names prefixed with `test` inside those files. (Pytest also looks
 for class names prefixed with `Test` but we will not cover those here).
 
-This repository demonstrates how to choose alternate file and function names
-when using Pants. Following the suggestions
+This repository demonstrates how to choose alternate Pytest file and function
+names when using Pants. Following the suggestions
 [here](https://docs.pytest.org/en/7.1.x/example/pythoncollection.html#customizing-test-collection),
 we configure Pants to search all python files for tests. Using the example
 [here](https://docs.pytest.org/en/7.1.x/example/pythoncollection.html#changing-naming-conventions)
